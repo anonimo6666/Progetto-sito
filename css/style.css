@@ -1,0 +1,36 @@
+i{
+    font-size:15px;
+    margin:10px;
+    color:white;
+}
+h1{
+    font-size:xx-large;
+    color: white;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+.menu_nav{
+    display: flex;
+    list-style-type: none;
+}
+.menu_nav li{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.menu_nav li a{
+    text-decoration: none;
+    color: white;
+}
