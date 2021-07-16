@@ -6,6 +6,7 @@ i{
 h1{
     font-size:xx-large;
     color: white;
+    margin-left: 15px;
 }
 
 
@@ -26,11 +27,17 @@ h1{
     list-style-type: none;
 }
 .menu_nav li{
-    margin: 10px;
+    margin: 15px;
     display: flex;
     align-items: center;
 }
 .menu_nav li a{
     text-decoration: none;
     color: white;
+    font-size: 15px;
+}
+.menu_nav a:hover{
+    border-bottom: 2px solid white;
+    transition:step-start;
+    transition-duration: 9s;
 }
