@@ -14,6 +14,12 @@ h1{
     padding: 0px;
     margin: 0px;
 }
+.top
+{
+    background-color: orange;
+    height: 10px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
